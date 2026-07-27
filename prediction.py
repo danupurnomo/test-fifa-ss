@@ -6,19 +6,19 @@ import numpy as np
 
 # Load all files
 
-with open('./src/model_lin_reg.pkl', 'rb') as file_1:
+with open('./model_lin_reg.pkl', 'rb') as file_1:
   model_lin_reg = pickle.load(file_1)
 
-with open('./src/model_scaler.pkl', 'rb') as file_2:
+with open('./model_scaler.pkl', 'rb') as file_2:
   model_scaler = pickle.load(file_2)
 
-with open('./src/model_encoder.pkl','rb') as file_3:
+with open('./model_encoder.pkl','rb') as file_3:
   model_encoder = pickle.load(file_3)
 
-with open('./src/list_num_cols.txt', 'r') as file_4:
+with open('./list_num_cols.txt', 'r') as file_4:
   list_num_cols = json.load(file_4)
 
-with open('./src/list_cat_cols.txt', 'r') as file_5:
+with open('./list_cat_cols.txt', 'r') as file_5:
   list_cat_cols = json.load(file_5)
 
 def run():

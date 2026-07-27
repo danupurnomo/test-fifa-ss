@@ -18,7 +18,7 @@ def run():
     st.write('## Teks 2 \n Teks 3')
 
     # Menambahkan Gambar
-    data = mpimg.imread('./src/soccer.jpg')
+    data = mpimg.imread('./soccer.jpg')
     st.image(data, caption='EDA FIFA 2022')
 
     # Menampilkan DataFrame
